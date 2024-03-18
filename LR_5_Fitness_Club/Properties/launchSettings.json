@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LR_5_Fitness_Club": {
+      "commandName": "Project",
+      "commandLineArgs": "groups.txt"
+    }
+  }
+}

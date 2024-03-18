@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="LR_5_Fitness_Club.Exit_Content_Control"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LR_5_Fitness_Club"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="550">
+    <Grid>
+        <TextBox x:Name="All_Groups_TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="280"/>
+        <Button x:Name="Exit_Button" Content="Выход" Margin="0,280,0,0" VerticalAlignment="Top" Height="25" Click="Exit_Button_Click"/>
+
+    </Grid>
+</UserControl>

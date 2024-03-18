@@ -1,0 +1,21 @@
+﻿<Window x:Class="LR_5_Fitness_Club.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR_5_Fitness_Club"
+        mc:Ignorable="d"
+        Title="Главное меню" Height="400" Width="800" FontSize="18" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Information_About_Groups" Content="Информация о занятиях" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Top" Height="100" Background="#FF89F78E" Click="Information_About_Groups_Click"/>
+        <Button x:Name="Join_In_Group" Content="Запись в группу" HorizontalAlignment="Stretch" Margin="0,100,0,0" VerticalAlignment="Top" Height="100" Background="#FF4AF1F9" Click="Join_In_Group_Click"/>
+        <Button x:Name="Help_With_Choice" Content="Помощь с выбором" HorizontalAlignment="Stretch" Margin="0,200,0,0" VerticalAlignment="Top" Height="100" Background="#FFE45AF9" Click="Help_With_Choice_Click"/>
+        <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Stretch" Margin="0,300,0,0" VerticalAlignment="Top" Height="84" Click="Exit_Click"/>
+        <ContentControl x:Name="Tab_For_Item" Content="" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+
+    </Grid>
+</Window>

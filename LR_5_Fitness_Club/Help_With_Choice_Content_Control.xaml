@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="LR_5_Fitness_Club.Help_With_Choice_Content_Control"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LR_5_Fitness_Club"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="550">
+    <Grid>
+        <TextBox x:Name="Support_TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="270" FontSize="10"/>
+        <Label Content="Введите цели:" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Goals_TextBox" HorizontalAlignment="Right" Margin="0,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Height="25"/>
+        <Button x:Name="Find_Trainings_Button" Content="Найти тренировки:" HorizontalAlignment="Left" Margin="150,310,0,0" VerticalAlignment="Top" Click="Find_Trainings_Button_Click"/>
+
+    </Grid>
+</UserControl>
